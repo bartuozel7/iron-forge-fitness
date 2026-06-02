@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Medya & Program | Iron Forge Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Sayfa İçi CSS (Internal CSS) Kuralı 3 -->
+    <style>
+        .media-section {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .program-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: white;
+        }
+        .program-table th, .program-table td {
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: center;
+        }
+        .program-table th {
+            background-color: #ff4500;
+            color: white;
+        }
+        .program-table tr:nth-child(even) {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Iron Forge Fitness</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Anasayfa</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="medya.html">Medya & Program</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Video Alanı -->
+        <div class="media-section">
+            <h2 style="color: #ff4500;">Motivasyon Videomuz</h2>
+            <p>Gelişim tesadüf değildir. Antrenman anlarından kısa bir kesit.</p>
+            <video width="80%" controls style="border: 2px solid #ff4500; border-radius: 10px;">
+                <source src="5320001-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+        </div>
+
+        <!-- Ses / Müzik Alanı -->
+        <div class="media-section">
+            <h2 style="color: #ff4500;">Antrenman Çalma Listemiz</h2>
+            <p>Antrenman sırasında motivasyonunu yüksek tutacak salon müziğimiz.</p>
+            <img src="geert-pieters-3RnkZpDqsEI-unsplash.jpg" alt="Grup Dersi" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 15px;">
+            <audio controls style="width: 80%;">
+                <source src="ikoliks_aj-sport-workout-gym-music-346427.mp3" type="audio/mpeg">
+                Tarayıcınız ses etiketini desteklemiyor.
+            </audio>
+        </div>
+
+        <!-- Tablo Alanı -->
+        <h2 style="color: #ff4500; margin-top: 40px;">Haftalık Grup Ders Programı</h2>
+        <table class="program-table">
+            <thead>
+                <tr>
+                    <th>Saat</th>
+                    <th>Pazartesi</th>
+                    <th>Çarşamba</th>
+                    <th>Cuma</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18:00 - 19:00</td>
+                    <td>CrossFit</td>
+                    <td>Spinning</td>
+                    <td>Fonksiyonel Antrenman</td>
+                </tr>
+                <tr>
+                    <td>19:30 - 20:30</td>
+                    <td>Ağırlık Kaldırma</td>
+                    <td>Pilates</td>
+                    <td>Zumba</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Iron Forge Fitness. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>
